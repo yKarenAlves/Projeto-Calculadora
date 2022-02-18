@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <main class="main">
+        
+        <h1 class="main__titulo">Calculadora</h1>
+
+        <div class="main__calculadora calculadora">
+            <input type="text" name="" id="resultado" class=" calculadora__res" disabled>
+            
+            <div class="calculadora__botoes">
+                <div class="botoes__fileira">                    
+                    <button onclick="calcular('C')" type="button" class="btn__estilo btn-especial especial-c">C</button>
+                    <button onclick="calcular('B')" type="button" class="btn__estilo btn-especial"><img class="img" src="img/delete.svg" alt="backspace"></button>
+                    <button onclick="calcular('/')" type="button" class="btn__estilo btn-especial">/</button>
+                </div>
+    
+                <div class="botoes__fileira">
+                    <button onclick="calcular('7')" type="button" class="btn__estilo">7</button>
+                    <button onclick="calcular('8')" type="button" class="btn__estilo">8</button>
+                    <button onclick="calcular('9')" type="button" class="btn__estilo">9</button>
+                    <button onclick="calcular('*')" type="button" class="btn__estilo btn-especial">*</button>
+                </div>
+    
+                <div class="botoes__fileira">
+                    <button onclick="calcular('4')" type="button" class="btn__estilo">4</button>
+                    <button onclick="calcular('5')" type="button" class="btn__estilo">5</button>
+                    <button onclick="calcular('6')" type="button" class="btn__estilo">6</button>
+                    <button onclick="calcular('-')" type="button" class="btn__estilo btn-especial">-</button>
+                </div>
+    
+                <div class="botoes__fileira">
+                    <button onclick="calcular('1')" type="button" class="btn__estilo">1</button>
+                    <button onclick="calcular('2')" type="button" class="btn__estilo">2</button>
+                    <button onclick="calcular('3')" type="button" class="btn__estilo">3</button>
+                    <button onclick="calcular('+')" type="button" class="btn__estilo btn-especial">+</button>
+                </div>
+
+                <div class="botoes__fileira">
+                    <button onclick="calcular('.')" type="button" class="btn__estilo">.</button>
+                    <button onclick="calcular('0')" type="button" class="btn__estilo">0</button>
+                    <button onclick="calcular('=')" type="button" class="btn__estilo especial-igual">=</button>
+                    
+                </div>
+            </div>
+        </div>
+
+    </main>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #F0F0F0;
+    color: #181860; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1% auto;
+    font-size: 3rem;
+}
+
+.main__titulo {
+    margin: 2%;
+    font-weight: 700;
+}
+
+.main__calculadora {
+    display: flex;
+    flex-direction: column;
+    height: 490px;
+    width: 25%;
+}
+
+.calculadora {
+    background: #A8A8C0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.082);
+}
+
+.calculadora__res {
+    margin-top: 15px;
+    padding-top: 30px;
+    border-radius: 20px;
+    height: 15%;
+    width: 85%;
+    background-color:white;
+    text-align: right;
+    border: none;
+    font-size: 50px;
+}
+
+.calculadora__botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 65%;
+    width: 85%;
+    margin-top: 5%;
+}
+
+.botoes__fileira {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+.btn__estilo {
+    width: 25%;
+    height: 100%;
+    margin: 2%;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.274);
+    color: white;
+    font-size: 2rem;
+    background-color: #A8A8C0;
+}
+
+.btn-especial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(240, 216, 216, 0.5);;
+}
+
+.img {
+    height: 30px;
+    width: 30px;
+}
+
+.especial-c {
+    width: 50%;
+}
+
+.especial-igual {
+    width: 50%;
+    background-color: #C0A8C0;
+}
